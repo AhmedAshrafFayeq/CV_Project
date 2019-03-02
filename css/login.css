@@ -1,0 +1,62 @@
+body{
+   background-size: auto;
+     background-size: cover;
+     height: 700px;
+   	 background-position: center; 
+	 background-repeat: no-repeat; 
+}
+
+.formContainer{
+	background-color: #fff;
+  	margin-top: 150px;  
+   margin-left: 500px;	
+   margin-right: 500px;
+   border-radius: 20px;
+   height:320px;
+   padding: 16px;
+}
+
+.loginWord{
+	font: 24px 'opensans-bold', sans-serif;
+}
+
+.boxes{
+	padding: 8px;
+}
+
+
+form{
+	text-align: center;
+}
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.submit_box{
+  width: 100%;
+  padding:25px;
+
+}
+
+input[type=submit] {
+	background-color: #314C51;
+	width: 80%;
+  color: white;
+  padding: 14px 20px;
+
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+input[type=submit]:hover{
+	opacity: 0.7;
+}

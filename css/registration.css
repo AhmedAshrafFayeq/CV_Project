@@ -1,0 +1,121 @@
+body{
+   background-size: auto;
+     background-size: cover;
+   	 background-position: center; 
+	 background-repeat: no-repeat; 
+}
+
+.formContainer{
+	background-color: #fff;
+  margin-top: 50px;  
+   margin-left: 450px;	
+   margin-right: 500px;
+   border-radius: 20px;
+   height:1100px;
+   padding: 35px;
+   width: 600px;
+}
+
+legend{
+  font: 20px 'opensans-bold', sans-serif;
+}
+.registrationWord{
+	font: 24px 'opensans-bold', sans-serif;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.estimatedWord{
+  margin-lefft: 0px;
+  float: left;
+
+
+}
+.range{
+  width:150px;
+  overflow: hidden;
+  margin:auto;
+ padding-left: 120px;
+
+  }
+
+.boxes{
+	padding: 8px;
+}
+.submit_box{
+	padding:25px;
+}
+
+
+
+
+form{
+	text-align: center;
+}
+
+.editprofile{
+
+    width: 20%;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+  display: block;
+  float: left;
+
+     
+    
+}
+
+.editprofile_img{
+  width: 100px;
+  height: 100px;
+float: left;
+}
+
+.choosephoto{
+  margin-top: 50px;
+  margin-left: 20px;
+  float: left;
+}
+
+.personal_info{
+  margin-top: 130px;
+}
+
+.color{
+  height:40px;
+}
+
+input[type=text], input[type=password],input[type=Email], input[type=url], input[type=tel], .birthdate, .color{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+   border-radius: 20px;
+  
+}
+
+
+input[type=submit] {
+	background-color: #314C51;
+	width: 80%;
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 25px; 
+ 
+  
+
+
+ }
+
+input[type=submit]:hover {
+	opacity: 0.7;
+}
+fieldset{
+  border-radius: 8px;
+}
